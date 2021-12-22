@@ -1,0 +1,260 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url(../_fonts/bubblegum-sans-regular.otf); 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1);
+}
+
+div#interface {
+    width: 880px;
+    height: 1920px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header#cabecalho img#icone {
+    position: absolute; /* Posição absoluta. */
+    left: 1040px; /* Posição da imagem para a direita */
+    top: 40px; /* Posição no topo da página. */
+
+}
+
+header#cabecalho {
+    border-bottom: 2px #606060 solid; /* Borda de divisão entre áreas diervsas da página */
+    height: 150px; /*  */
+    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 90px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 36pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+    padding: 0px;
+    margin-bottom: 0px;
+
+}
+
+header#cabecalho h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 15pt;
+    color: #888888;
+    padding: 0px;
+    margin-top: 3px;
+
+
+}
+
+/* Formatação de imagens com legenda */
+
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+/* Formatação do menu */
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 520px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+}
+
+section#corpo {
+    display: block; /* limita o conteúdo do site em blocos */
+    width: 460px; /* define a largura do bloco */
+    float: left; /* faz o conteúdo flutuar a esquerda */
+    border-right: 2px solid #606060; /* linha vertical que irá separar os dois blocos */ 
+    padding-right: 12px; /* aumenta o espaço interno do bloco */
+}
+
+article#noticia-principal h2 {
+    font-size: 13pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+header#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;       
+}
+
+.direita {
+    text-align: right;
+    font-size: 10px;
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #554b4b;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 12px;
+    color: #606060;
+
+}
+
+table#tabelaspec {
+    border: 2px solid #606060; /* borda para a tabela (borda externa) */
+    border-spacing: 1px; /* tira ou aumenta o espaço entre cada campo da tabela */
+    margin-left: auto; /* centraliza os campos da tabela à esquerda */
+    margin-right: auto; /* centraliza os campos da tabrela à direita */
+}
+
+table#tabelaspec td {
+    border: 2px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;   
+}
+
+table#tabelaspec td.ce {
+    color: #ffffff;
+    background-color: #606060;
+    vertical-align: text-top;
+    font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+    font-size: right;
+}
+
+table#tabelaspec caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+table#tabelaspec caption span {
+    display: block; /* Faz com que os conteúdo fiquem em blocos flutuantes no site */
+    float: right; /* faz o conteúdo flutuar a direita */
+    color: #000000; /* Cor do texto */
+    font-size: 10pt; /* Tamanho da fonte */
+    margin-top: 10px; /* diminui o espaço externo entre a frase e o rodapé do site */
+}
+
+aside#lateral {
+    display: block; /* limita o conteúdo do site em blocos */
+    width: 370px; /* define a largura do bloco */
+    float: right; /* faz o conteúdo flutuar a direita */
+    background-color: #dddddd; /* Cor de fundo do site */
+    padding: 10px; /* Espaço entre as margens e os textos do site */
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+aside#lateral h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20px;
+    color: #606060;
+    margin-top: 0px;
+
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 15px;
+}
+
+footer#rodape {
+    clear: both; /*limpa a configuração dos dois lados. */
+    width: 800px;
+    border-top: 2px solid #606060; /* faz uma borda separando os dois blocos e o rodapé. */
+}
+
+footer#rodape p {
+    text-align: center; /* coloca o texto no centro da página. */
+}
+
+
+
+
+
+

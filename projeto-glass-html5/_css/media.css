@@ -1,0 +1,61 @@
+ @charset "UTF-8";
+
+  div#tv-radio {
+      width: 900px;
+      height: 580px;
+      margin: auto;
+      background: url("../_imagens/radio-tv.png") no-repeat;
+ 
+ }
+
+ audio#musica {
+     display: block;
+     position: relative;
+     left: 575px;
+     top: 486px;
+     width: 300px;
+ 
+ }
+ 
+ video#filme {
+     display: block;
+     position: relative;
+     left: 88px;
+     top: 65px;
+     width: 440px;
+ 
+ }
+
+ div#tv-stream {
+     width: 260px;
+     height: 80px;
+     margin: auto;
+     /* background: url("../_imagens/video-mini02.jpg") no-repeat; */
+ 
+ }
+
+ video#filme1 {
+     display: block;
+     position: relative;
+     left: -100px;
+     top: 0 auto;
+     width: 460px;   
+     
+ }
+
+ div#tv-specs {
+    width: 370px;
+    height: auto;
+    margin: auto;
+    /* background: url("../_imagens/video-mini03.jpg") no-repeat; */
+
+ } 
+
+ video#filme2 {
+     display: block;
+     position: relative;
+     left: 0 auto;
+     top: 0 auto;
+     width: 370px;    
+    
+ }
