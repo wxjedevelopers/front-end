@@ -1,0 +1,67 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* ====== CAROUSEL PRINCIPAL ====== */
+
+
+/* .owl-carousel img {
+        width: 360px;
+        height: 260px;
+}
+
+.owl-carousel,
+.owl-stage-outer,
+.owl-stage,
+.owl-item,
+.item {
+    height: 100%;
+    position: relative;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.owl-prev,
+.owl-next {
+    position: relative;
+    background: rgba(0, 0, 0, .5);
+    margin: 20px 12px;
+    color: #ffffff;
+}
+
+.owl-prev {
+    border-radius: 0 4px 4px 0;
+    -webkit-border-radius: 0 4px 4px 0;
+}
+
+.owl-next {
+    left: auto;
+    right: 0;
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+}
+
+.owl-dots {
+    position: absolute;
+    width: 100%;
+    z-index: 12;
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+    background: #aaaaaa;
+    display: inline-block;
+    width: 35px;
+    height: 10px;
+    margin: 4px;
+}
+
+
+.owl-dots .owl-dot.active {
+    background: #f47933;
+}*/
